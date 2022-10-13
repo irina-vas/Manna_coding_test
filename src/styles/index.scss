@@ -1,0 +1,10 @@
+@import 'mixins.scss';
+@import 'reset.scss';
+@import 'global.scss';
+
+@import '../components/Header/HeaderDesktop/styles.scss';
+@import '../components/Header/HeaderMobile/styles.scss';
+@import '../pages/NewsPage/styles.scss';
+@import '../components/NewsTopThree/styles.scss';
+@import '../components/News/styles.scss';
+@import '../components/Text/styles.scss';

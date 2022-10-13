@@ -1,0 +1,45 @@
+.text.xlg {
+  font-size: 65px;
+  @include breakpoint(sm) {
+    font-size: 48px;
+  }
+}
+.text.lg {
+  font-size: 22px;
+}
+.text.md {
+  font-size: 14px;
+}
+.text.sm {
+  font-size: 12px;
+}
+.text.w800 {
+  font-weight: 800;
+}
+.text.w700 {
+  font-weight: 700;
+}
+.text.w500 {
+  font-weight: 500;
+}
+.text.w400 {
+  font-weight: 400;
+}
+.text.black {
+  color: #000;
+}
+.text.white {
+  color: #fff;
+}
+.text.orange {
+  color: #ff6600;
+}
+.text.opacity05 {
+  color: rgba(256, 256, 256, 0.5);
+  &:hover {
+    color: rgba(256, 256, 256, 0.8)
+  }
+}
+.text.opacity08 {
+  color: rgba(256, 256, 256, 0.8);
+}
